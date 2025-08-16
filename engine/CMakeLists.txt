@@ -68,8 +68,8 @@ hst_route_outputs(engine)
 
 # Configs
 configure_file(
-        "${CMAKE_CURRENT_SOURCE_DIR}/include/Engine/Config.hpp.in"
-        "${CMAKE_CURRENT_BINARY_DIR}/generated/Engine/Config.hpp"
+        "include/config.hpp.in"
+        "${CMAKE_CURRENT_BINARY_DIR}/generated/Engine/config.hpp"
         @ONLY
 )
 
