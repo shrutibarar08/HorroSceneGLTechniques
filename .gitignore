@@ -1,0 +1,62 @@
+# ================================
+# CLion / JetBrains
+# ================================
+.idea/
+*.iml
+
+# ================================
+# CMake build output
+# ================================
+cmake-build-*/
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# ================================
+# Compiled objects & libraries
+# ================================
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exp
+*.pdb
+
+# ================================
+# Executables
+# ================================
+*.exe
+*.out
+*.app
+
+# ================================
+# Logs & caches
+# ================================
+*.log
+*.cache
+*.swp
+*.swo
+*.tmp
+
+# ================================
+# Project-specific
+# ================================
+runtime/
+cache/
+logs/
+
+# Stamp files
+*.stamp
+.vscode/

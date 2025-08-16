@@ -1,0 +1,17 @@
+#pragma once
+
+#cmakedefine HST_LOGS        1
+#cmakedefine HST_VALIDATION  1
+#cmakedefine HST_EDITOR_MENU 1
+#cmakedefine HST_PROFILER    1
+#cmakedefine HST_UNICODE 1
+
+#define HST_RUNTIME_PATH     "@HST_RUNTIME_PATH@"
+#define HST_SAVE_PATH        "@HST_SAVE_PATH@"
+#define HST_LOAD_PATH        "@HST_LOAD_PATH@"
+#define HST_LOG_SAVE_PATH    "@HST_LOG_SAVE_PATH@"
+#define HST_ASSETS_PATH      "@HST_ASSETS_PATH@"
+#define HST_SOURCE_ASSETS    "@HST_SOURCE_ASSETS_PATH@"
+
+#define HST_CACHE_DIR        "@HST_CACHE_DIR@"
+#define HST_ASSETS_STAMP     "@HST_ASSETS_STAMP@"
